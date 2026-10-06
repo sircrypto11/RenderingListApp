@@ -5,19 +5,10 @@ function App() {
   const [books, setBooks] = useState([
     {
       id: 1,
-      title: "The Alchemist",
-      author: "Paulo Coelho",
+      title: "",
+      author: "",
     },
-    {
-      id: 2,
-      title: "Rich Dad Poor Dad",
-      author: "Robert Kiyosaki",
-    },
-    {
-      id: 3,
-      title: "The 5 AM Club",
-      author: "Robin Sharma",
-    },
+    
   ]);
 
   const [title, setTitle] = useState("");
