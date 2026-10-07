@@ -10,7 +10,7 @@ function BookItem({ book, deleteBook }) {
         <p className="text-gray-500">
           By {book.author}
         </p>
-      </div> 
+      </div>  
 
       <button
         onClick={() => deleteBook(book.id)}
