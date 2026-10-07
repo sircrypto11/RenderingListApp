@@ -1,5 +1,6 @@
 import { useState } from "react";
 import BookList from "./Components/BookList";
+import tailwindcss from '@tailwindcss/vite'
 
 function App() {
   const [books, setBooks] = useState([
@@ -56,7 +57,7 @@ function App() {
         >
 
           <h2 className="text-xl font-bold mb-4">
-            Add a Book
+            BOOKS I HAVE READ
           </h2>
 
           <input
